@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<button onclick="myFunction()"> 点击试一下</button>
+		<script>
+			function myFunction() {
+				var x = document.createElement("VIDEO");
+				x.setAttribute("width", "320");
+				x.setAttribute("height", "240");
+				x.setAttribute("controls", "controls");
+				x.setAttribute("autoplay", "autoplay");
+				x.setAttribute("src", "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/11c70c96529b6e6938567ec1aa0910e0.mp4");
+				x.setAttribute("x5-video-player-type", "h5");
+				x.setAttribute("x5-video-player-fullscreen", "true");
+				document.body.appendChild(x);
+			}
+		</script>
+
+	</body>
+</html>
